@@ -1,0 +1,24 @@
+{
+  "name": "stuff2test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest --config=jest.config.js --watchAll --cache",
+    "coverage": "jest --config=jest.config.js --coverage --watchAll --cache",
+    "clearCache": "jest --clearCache",
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
