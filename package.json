@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
+  "homepage": "https://github.com/Nico-kun123/Jest-and-Typescript",
   "scripts": {
     "test": "jest --config=jest.config.js --watchAll --cache",
     "coverage": "jest --config=jest.config.js --coverage --watchAll --cache",

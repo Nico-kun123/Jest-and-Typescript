@@ -88,5 +88,5 @@ interface LengthHelp {
 function getLength<T extends LengthHelp>(data: T): number {
   return data.length;
 }
-export { getPigeonKeys, getLength };
-export { Pigeon };
+
+export { Pigeon, getPigeonKeys, getLength };

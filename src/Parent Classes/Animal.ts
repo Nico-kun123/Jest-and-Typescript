@@ -1,35 +1,10 @@
-interface AnimalInterface {
-  name: string;
-  flies?: boolean | undefined; // optional property
-  swims?: boolean | undefined; // optional property
-  ThePrototypeMessage?: string;  // optional property (added to the prototype)
-
-  /**
-   * The eats() method is an abstract method of the Animal class that must be implemented by all child classes.
-   * 
-   * It returns a string that says what the animal eats.
-   */
-  eats(): string;
-
-  /**
-   * The getName() method is an abstract method of the Animal class that must be implemented by all child classes.
-   * 
-   * It returns a string that says the animal's name. 
-   */
-  getName(): string;
-
-  /**
-   * The info() getter method, which returns a string that says whether the animal can fly and/or swim.
-   */
-  info: string;
-}
 
 /**
  * The Animal class is an abstract class that is the parent class of all animals.
  * 
  * It contains the properties and methods that are common to all animals (e.g. name, ability to fly, ability to swim, ability to eat, etc.).
  */
-abstract class Animal implements AnimalInterface {
+abstract class Animal {
   name: string;
   flies?: boolean | undefined;
   swims?: boolean | undefined;

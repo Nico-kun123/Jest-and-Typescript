@@ -16,7 +16,7 @@ module.exports = {
   },
 
   // Папка для отчетов о покрытии
-  coverageDirectory: "./__tests__/jest/Test Coverage",
+  coverageDirectory: "./__tests__/jest/coverage",
   // Папка для кэша
   cacheDirectory: "./__tests__/jest/cache",
 
